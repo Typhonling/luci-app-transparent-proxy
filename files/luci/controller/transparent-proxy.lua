@@ -42,6 +42,7 @@ function action_status()
 		v2ray = is_running("v2ray"),
 		xray = is_running("xray"),
 		clash = is_running("clash"),
-		redsocks = is_running("redsocks")
+		redsocks = is_running("redsocks"),
+		gost = is_running("gost")
 	})
 end
