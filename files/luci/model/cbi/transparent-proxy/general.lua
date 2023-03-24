@@ -47,6 +47,10 @@ o = s:option(DummyValue, "_status_redsocks", translate("Redsocks"))
 o.value = "<span id=\"_status_redsocks\">%s</span>" %{translate("Collecting data...")}
 o.rawhtml = true
 
+o = s:option(DummyValue, "_status_gost", translate("Gost"))
+o.value = "<span id=\"_status_gost\">%s</span>" %{translate("Collecting data...")}
+o.rawhtml = true
+
 s = m:section(TypedSection, "general", translate("Global Settings"))
 s.anonymous = true
 
